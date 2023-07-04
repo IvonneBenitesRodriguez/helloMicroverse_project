@@ -1,70 +1,230 @@
-# Project: helloMicroverse 
-### Goal : Add Linters to html & css 📚
-<a name="readme-top"></a>
-
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)<br/>
-  This project is about the usage and benefits of <strong>ESLint</strong>.<br/>
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 helloMicroverse_project <a name="about-project"></a>
+
+**helloMicroverse_project** is a small project is about the usage and benefits of <strong>ESLint</strong>.<br/>
   ESLint is a static code analysis tool for finding errors, bugs, and stylistic errors.<br/>
   This provides the developer with the ease of delivering clean code.<br/>
-  
-  - [🛠 Built With](#built-with)
-    - [HTML](#tech-stack)
-    - [CSS](#tech-stack)<br/>
-    
-    - [Key Features](#key-features):
-    - The most important part is to add the specified folders and files for the configuration of ESLINT.<br/>
-      Files like <strong>.gitignore </strong> or folders like <strong>.github/workflows</strong> are important to store<br/>
-      important files like <strong>linters.yml</strong>, as well as <strong>files to be hidden </strong>like node_modules are placed<br/>
-      inside the .gitignore file.<br/>
-      Another important part is the creation of branches. Besides our <strong><em>main</em></strong> branch, I created a branch <br/>
-      to develop the header which will be merged to the main branch.<br/>
-      
-  - [🚀 Live Demo](#live-demo)<br/>
-  
-     This is the live demo to <em>helloMicroverse project</em>: <br/>
-     https://ivonnebenitesrodriguez.github.io/helloMicroverse/
-    
-- [💻 Getting Started](#getting-started)
-  - 📍[Prerequisites](#prerequisites)<br/>
-  
-    - Install a code editor
-    - Install node.js 
-    
-  - 📍[Setup](#setup)
-  - Create a new repository to store files named index.html and style.css 
-  - Inside this repository, add a folder named .github/workflows
-  - Inside the folder named .github/workflows add the file named linters.yml
-  - Create a file named .gitignore and add node_modules to this file.
-  - Create a file named .hintrc to set up Webhint tool.
-  - Create a file named .stylelintrc.json to set up Stylelint tool.
-    
-  - 📍[Install](#install)
-  - Before installing node.js verify if you already have node <br/>
-    For it use this command:<strong> ```  node   -v ``` </strong> 
-  
-  - 📍[Usage](#usage)
-  - This tool helps developers to increase productivity and efficency.
-    
-- [ 🌸 Author](#authors) :  👩🏽‍💻 Ivonne Benites
-  - GitHub: [@githubhandle](https://github.com/IvonneBenitesRodriguez)
-  - Twitter: [@twitterhandle](https://twitter.com/IvonneBenitesR)
-  - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ivonnebenites/)
 
-- [🔭 Future Features](#future-features)
-  - I will add the a navbar with 3 categories: Home, Products and Contact.
-  - I will add a section with a class. There I will add pictures and text.
-     
-- [🤝 Contributing](#contributing)
-  - Contributions, issues, and feature requests are welcome!
-    
-- [⭐️ Show your support](#support)
-  - If you like this project, a star will be very appreciated! ⭐️
-    
-- [📝 License](#license)
-  - This project is [MIT](./LICENSE) licensed.
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- ***Set up files and dependencies*** to configure Linters 📍
+- ***Create a featured branch*** to store all the changes before doing the merge to main branch 📍
+- **Create a .gitignore file** to store hidden files 📍
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+This is the live demo to <em>helloMicroverse project</em>: <br/>
+
+- [Live Demo Link](https://ivonnebenitesrodriguez.github.io/helloMicroverse/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+📍 In order to run this project you need:
+
+1) Verify if you have node.js installed in your system
+
+```sh
+ node -v
+```
+If you have installed it, it will output the version of node.
+
+2) If you do not have it installed, go to the page : https://nodejs.org/en and download it.
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/IvonneBenitesRodriguez/helloMicroverse_project.git
+```
+
+Create a featured branch besides main branch :
+
+```sh
+   git checkout -b nameofyournewbranch
+```
+
+### Install <br/>
+
+Install this project with:<br/>
+
+a) Enter to your repo's folder:
+
+```sh
+  cd helloMicroverse_project
+```
+
+b) For Webhint tool, install this command :
+
+```sh
+     npm install --save-dev hint@7.
+```
+
+c) For StyleLint tool, install this command:
+
+```sh
+   npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+```
+
+### Usage
+
+To run this project, execute the following command:
+
+a) For Webhint tool:
+
+```sh
+  npx hint .
+```
+b) For StyleLint tool:
+```sh
+    npx stylelint "**/*.{css,scss}"
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+   npx hint .
+   npx stylelint "**/*.{css,scss}"
+```
+
+
+### Deployment
+
+You can deploy this project using:
+- Github pages
+- Netlify 
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👩🏽‍💻🌸 **Author**
+
+- GitHub: [@IvonneBenitesRodriguez](https://github.com/IvonneBenitesRodriguez)
+- Twitter: [@IvonneBenitesR](https://twitter.com/IvonneBenitesR)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ivonnebenites/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ]  - I will add the a navbar with 3 categories: Home, Products and Contact.
+- [ ]  - I will add a section with a class. There I will add pictures and text.
+- [ ]  - I will add a footer section with social-network information. 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, and consider Linters configuration was useful to you,  you can give me a ⭐️ so I can be highly motivated by your support.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Microverse for giving me the opportunity to make real my dreams.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
