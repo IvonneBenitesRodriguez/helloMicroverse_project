@@ -165,8 +165,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
 - [ ]  - I will add the a navbar with 3 categories: Home, Products and Contact.
 - [ ]  - I will add a section with a class. There I will add pictures and text.
 - [ ]  - I will add a footer section with social-network information. 
